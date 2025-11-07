@@ -1,0 +1,168 @@
+/* Colores base */
+:root {
+  --morado: #8a2be2;
+  --rosado: #f3c4fb;
+  --blanco: #fff;
+}
+
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--rosado);
+  color: #333;
+}
+
+/* Menú */
+nav {
+  background-color: var(--morado);
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Sección hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: var(--blanco);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: var(--morado);
+}
+
+.hero span {
+  font-style: italic;
+}
+
+/* Contacto */
+.contacto {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: var(--blanco);
+  border-top: 3px solid var(--morado);
+}
+
+.insta-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: var(--morado);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Formulario */
+form {
+  margin-top: 20px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border: 2px solid var(--morado);
+  border-radius: 6px;
+  width: 250px;
+}
+
+button {
+  background-color: var(--morado);
+  color: var(--blanco);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: var(--morado);
+  color: white;
+}
+
+/* Sobre mí */
+.sobre-mi {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.opciones button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: var(--morado);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* Opciones de la página "Sobre mí" */
+.opciones {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.opcion-btn {
+  background-color: var(--morado);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.opcion-btn:hover {
+  background-color: #a96bff;
+}
+
+/* Páginas individuales */
+.info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.info-card {
+  background-color: var(--blanco);
+  border: 2px solid var(--morado);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+}
+
+.info-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.info-card h3 {
+  color: var(--morado);
+  margin-bottom: 10px;
+}
