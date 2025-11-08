@@ -1,46 +1,38 @@
-# Mi Sitio Personal - About Me
+# About Me — Miya (versión corta)
 
-¡Hola! Bienvenido a mi sitio web personal. Este es un espacio donde podrás conocer más sobre mí, Miryian (o Miya).
+Sitio personal estático hecho con HTML, CSS y JavaScript.
 
-## 📝 Descripción
-
-Este proyecto es un sitio web personal que incluye información sobre mí y formas de contactarme. Está desarrollado con HTML y CSS, manteniendo un diseño limpio y amigable.
-
-## 🚀 Características
-
-- **Página de Inicio**: Una cálida bienvenida con una breve introducción.
-- **Navegación Intuitiva**: Menú de navegación con enlaces a las diferentes secciones.
-- **Sección Sobre Mí**: Información personal y detalles sobre quién soy.
-- **Formulario de Contacto**: Un formulario simple para que los visitantes dejen su correo electrónico.
-- **Redes Sociales**: Enlaces directos a mis perfiles sociales (Instagram).
-
-## 🛠️ Tecnologías Utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-
-## 📁 Estructura del Proyecto
+Estructura principal:
 
 ```
-about_me/
-│
-├── index.html
-├── personal.html
-├── ramdon.html
-├── sobreMi.html
-├── universitaria.html
-├── css/
-│   └── styles.css
-└── js/
-    └── script.js
+index.html
+sobreMi.html
+personal.html
+universitaria.html
+ramdon.html
+css/styles.css
+js/script.js
+img/
 ```
 
-## 📫 Contacto
+Cómo verlo localmente:
 
-Puedes encontrarme en:
-- Instagram: [@whooismiyaa](https://www.instagram.com/whooismiyaa)
+- Abrir `index.html` en el navegador (doble clic).
+- O ejecutar desde PowerShell:
 
-## 📄 Licencia
+```powershell
+python -m http.server 8000
+# abrir http://localhost:8000
+```
 
-© 2025 Miya | Todos los derechos reservados.
+Editar contenido:
+
+- HTML: archivos `.html`.
+- Estilos: `css/styles.css`.
+- Scripts: `js/script.js`.
+
+Contacto: @whooismiyaa (Instagram).
+
+© 2025 Miya
+# luego abre en el navegador: http://localhost:8000
+
